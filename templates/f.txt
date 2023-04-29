@@ -1,0 +1,11 @@
+<html>
+<title>home</title>
+<head>
+</head>
+<body>
+<h1 align="center">Founder page</h1>
+<img src= "{% static "home.png"%}" alt="home" width="50" height="50"/>
+
+
+</body>
+</html>

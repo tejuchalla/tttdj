@@ -1,0 +1,17 @@
+{% load static %}
+<html>
+<title>home</title>
+<head>
+</head>
+<body>
+<h1 align="center">Account page</h1>
+<a href="http://127.0.0.1:8000/"><img src= "{% static "home.png"%}" alt="home" width="50" height="50"/></a>
+
+{% for k in alla %}
+
+{{k.num}}
+{{k.sc}}
+
+{% endfor %}
+</body>
+</html>
